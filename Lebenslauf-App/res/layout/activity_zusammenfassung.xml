@@ -1,0 +1,151 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".BerufserfahrungActivity" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_zusammenfassung"
+            android:textSize="30sp" />
+
+        <!-- Personalien -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_personalien"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_name" />
+
+        <TextView
+            android:id="@+id/edt_zusammenfassung_person_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:text="@string/txt_leer"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_adresse" />
+
+        <TextView
+            android:id="@+id/edt_zusammenfassung_person_adresse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_leer" />
+
+        <!-- Berufserfahrung -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_berufserfahrung"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_firma" />
+
+        <TextView
+            android:id="@+id/edt_zusammenfassung_firma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:text="@string/txt_leer" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_dauer" />
+
+        <TextView
+            android:id="@+id/edt_zusammenfassung_firma_dauer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:text="@string/txt_leer" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_taetigkeit" />
+
+        <TextView
+            android:id="@+id/edt_zusammenfassung_firma_taetigkeit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:text="@string/txt_leer" />
+
+        <!-- Bildung -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_bildung"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_schule" />
+
+        <TextView
+            android:id="@+id/edt_zusammenfassung_firma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:text="@string/txt_leer" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_dauer" />
+
+        <TextView
+            android:id="@+id/edt_zusammenfassung_firma_dauer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:text="@string/txt_leer" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_taetigkeit" />
+
+        <TextView
+            android:id="@+id/edt_zusammenfassung_firma_taetigkeit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:text="@string/txt_leer" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onClickSkills"
+                android:text="@string/txt_zuruck" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onClickBildung"
+                android:text="@string/txt_bildung" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
