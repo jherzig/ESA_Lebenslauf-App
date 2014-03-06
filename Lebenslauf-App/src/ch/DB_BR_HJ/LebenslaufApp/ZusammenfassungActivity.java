@@ -1,4 +1,4 @@
-package com.example.lebenslauf_app;
+package ch.DB_BR_HJ.LebenslaufApp;
 
 import android.os.Bundle;
 import android.app.Activity;
@@ -6,25 +6,31 @@ import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
 
-public class MainActivity extends Activity {
+
+public class ZusammenfassungActivity extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+		setContentView(R.layout.activity_zusammenfassung);
 	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.main, menu);
+		getMenuInflater().inflate(R.menu.zusammenfassung, menu);
 		return true;
 	}
 
-	public void onClickErfassen(View button) {
+	public void onClickSkills(View Button) {
+		final Intent intent = new Intent(this, SkillsActivity.class);
 
-		final Intent intent = new Intent(this, BildActivity.class);
-		
+		startActivity(intent);
+
+	}
+
+	public void onClickStart(View Button) {
+		final Intent intent = new Intent(this, MainActivity.class);
 		startActivity(intent);
 	}
 
