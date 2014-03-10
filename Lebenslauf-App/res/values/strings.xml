@@ -14,16 +14,16 @@
     <string name="title_activity_bild">BildActivity</string>
     <string name="txt_bild_hochladen">Bild hochladen</string>
     <string name="txt_kamera">Kamera</string>
-    <string name="txt_name">Name</string>
-    <string name="txt_adresse">Adresse</string>
+    <string name="txt_name">Name:</string>
+    <string name="txt_adresse">Adresse:</string>
     <string name="txt_berufserfahrung">Berufserfahrung</string>
     <string name="txt_zuruck">zurück</string>
 
     <!-- Dritte Seite -->
     <string name="title_activity_berufserfahrung">BerufserfahrungActivity</string>
-    <string name="txt_firma">Firma</string>
-    <string name="txt_dauer">Dauer</string>
-    <string name="txt_taetigkeit">Tätigkeit</string>
+    <string name="txt_firma">Firma:</string>
+    <string name="txt_dauer">Dauer:</string>
+    <string name="txt_taetigkeit">Tätigkeit:</string>
     <string name="txt_berufserfahrung_add">Berufserfahrung hinzufügen</string>
 
     <!-- Vierte Seite -->
@@ -32,7 +32,7 @@
     <string name="txt_grund">Grundbildung</string>
     <string name="txt_aus">Ausbildung</string>
     <string name="txt_weiter">Weiterbildung</string>
-    <string name="txt_schule">Schule</string>
+    <string name="txt_schule">Schule:</string>
     <string name="txt_bildung_add">Bildung hinzufügen</string>
     <string name="txt_skills">Skills</string>
     <string name="title_activity_skills">SkillsActivity</string>
@@ -40,13 +40,16 @@
 
     <!-- Fünfte Seite -->
     <string name="txt_skill_add">Skill hinzufügen</string>
-    <string name="txt_itkenntniss">IT-Kenntnisse</string>
+    <string name="txt_itkenntniss">IT-Kenntnisse:</string>
     <string name="title_activity_zusammenfassung">ZusammenfassungActivity</string>
     <string name="txt_zusammenfassung">Zusammenfassung</string>
     
     <!-- Sechste Seite -->
         <string name="txt_personalien">Personalien</string>
         <string name="txt_leer">---------------</string>
+        <string name="txt_schule_art">Art der Schule:</string>
+
+       
  
 
 </resources>

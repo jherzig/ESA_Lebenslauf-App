@@ -1,4 +1,4 @@
-package ch.DB_BR_HJ.LebenslaufApp;
+package com.example.lebenslauf_app;
 
 public class Bildung {
 	public int ID;

@@ -1,10 +1,12 @@
-package ch.DB_BR_HJ.LebenslaufApp;
+package com.example.lebenslauf_app;
 
 import java.util.ArrayList;
 import java.util.UUID;
+
 import android.annotation.SuppressLint;
 import android.media.Image;
 import android.os.Parcel;
+import android.os.Parcelable;
 
 @SuppressLint("ParcelCreator")
 public class CV {

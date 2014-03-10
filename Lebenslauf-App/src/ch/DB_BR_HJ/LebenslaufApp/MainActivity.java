@@ -1,4 +1,4 @@
-package ch.DB_BR_HJ.LebenslaufApp;
+package com.example.lebenslauf_app;
 
 import android.os.Bundle;
 import android.app.Activity;

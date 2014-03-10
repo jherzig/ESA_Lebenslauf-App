@@ -19,12 +19,14 @@
     <SeekBar
         android:id="@+id/edt_skills_itkenntnisse"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:max="100" />
 
     <Button
-        android:id="@+id/button_skill_add"
+        android:id="@+id/edt_add_skill"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:onClick="onClickAddSkill"
         android:text="@string/txt_skill_add" />
 
     <LinearLayout

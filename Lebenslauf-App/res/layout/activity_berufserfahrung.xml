@@ -45,7 +45,7 @@
         android:id="@+id/edt_add_berufserfahrung"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="onClickAdd"
+        android:onClick="onClickAddBerufserfahrung"
         android:text="@string/txt_berufserfahrung_add" />
 
     <LinearLayout
