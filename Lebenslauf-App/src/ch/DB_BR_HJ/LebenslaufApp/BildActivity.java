@@ -1,16 +1,11 @@
-package com.example.lebenslauf_app;
+package ch.DB_BR_HJ.LebenslaufApp;
 
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.hardware.Camera;
-import android.util.Log;
-import android.view.Menu;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.ImageView;
-import android.widget.TextView;
+
 
 public class BildActivity extends Activity {
 
