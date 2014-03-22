@@ -10,7 +10,8 @@
     <string name="txt_erfassen">CV erfassen</string>
 
     <!-- Zweite Seite -->
-    <string name="txt_bild">Bild hochladen</string>
+    <string name="txt_bild">Personalien erfassen</string>
+    <string name="txt_bildLaden">Bild auswählen / Hochladen</string>
     <string name="title_activity_bild">BildActivity</string>
     <string name="txt_bild_hochladen">Bild hochladen</string>
     <string name="txt_kamera">Kamera</string>
@@ -20,7 +21,7 @@
     <string name="txt_zuruck">zurück</string>
 
     <!-- Dritte Seite -->
-    <string name="title_activity_berufserfahrung">BerufserfahrungActivity</string>
+    <string name="title_activity_berufserfahrung">Berufserfahrung</string>
     <string name="txt_firma">Firma:</string>
     <string name="txt_dauer">Dauer:</string>
     <string name="txt_taetigkeit">Tätigkeit:</string>
@@ -48,6 +49,7 @@
         <string name="txt_personalien">Personalien</string>
         <string name="txt_leer">---------------</string>
         <string name="txt_schule_art">Art der Schule:</string>
+
 
        
  
